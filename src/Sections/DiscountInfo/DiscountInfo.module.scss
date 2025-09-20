@@ -1,0 +1,95 @@
+.discountcontainer{
+    max-width: 473px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 58px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h6{
+        font-weight: 500;
+        font-size: 35px;
+        color: var(--white-text);
+         text-align: center;
+    }
+    p{
+        font-weight: 500;
+        font-size: 18px;
+        color: var(--white-text);
+        padding-top: 20px;
+         text-align: center;
+    }
+    
+
+  
+
+    input{
+        background-color: var(--white-text);
+        border: none;
+        margin-top: 43px;
+        height: 50px;
+        width: 400px;
+         padding: 0 15px;
+         text-align: center;
+    }
+
+    .subsc{
+         padding: 12px 46px; 
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    background-color: var(--button-burdo);
+    color: var(--white-text);          
+    }
+
+    .subsc:hover{
+        background: #3d0222;
+      
+    }
+    .buttonattack{
+    margin-top: 35px;
+          display: flex;
+  justify-content: center;
+    }
+}
+
+.discountfull{
+  margin-top: 120px;
+  width: 100%;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+    
+}
+
+.inputfull {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 43px; 
+}
+
+input {
+  width: 100%;
+  padding: 12px 40px 12px 15px; 
+  box-sizing: border-box;
+  text-align: center;
+  border: none;
+  background-color: var(--white-text);
+}
+
+.deletebutton {
+  position: absolute;
+  
+  right: 3px; 
+  top: 55px;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px;
+}

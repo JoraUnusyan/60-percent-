@@ -1,0 +1,179 @@
+.fullage{
+    background-image: linear-gradient(to bottom, var(--graident1), var(--graident2));
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+
+
+.pagespace{
+    padding-top: 58px;
+    padding-bottom: 58px;
+    position: relative;
+}
+
+.info{
+   text-align: center;
+    h4{
+     color: var(--button-burdo);
+     font-weight: 500;
+     font-size: 32px;
+    }
+    p{
+        color: var(--button-burdo);
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+}
+
+.divyonok{
+    content: "";
+            position: absolute;
+            bottom: -24px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 26px solid transparent;
+            border-right: 25px solid transparent;
+            border-top: 25px solid var(--white-text);
+}
+
+.notdivyonok{
+    display: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.slide{
+    padding-top: 60px;
+}
+
+.slidecontainer {
+  position: relative;
+  height: 350px; 
+  margin-top: 61px;
+}
+
+.fullslide {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 70%;
+  max-width: 700px;
+  transition: all 0.6s ease;
+  opacity: 0;
+  transform: translateX(-50%) scale(0.8);
+ 
+}
+
+.standart {
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+  z-index: 3;
+  transform: translateX(-50%) scale(1);
+  pointer-events: auto;
+}
+
+.commentleft {
+  opacity: 0.5;
+  z-index: 2;
+  transform: translateX(-150%) scale(0.9);
+}
+
+.commentright {
+  opacity: 0.5;
+  z-index: 2;
+  transform: translateX(50%) scale(0.9);
+}
+
+.infopole {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    
+  }
+}
+
+.verx{
+position: absolute;
+right: 0;
+bottom: 0;
+padding: 5px;
+}
+
+.vniz{
+position: absolute;
+left: 0;
+top: 0;
+padding: 5px;
+}
+
+.navigate {
+  position: absolute;
+  bottom: 80px; 
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.arrow {
+   
+  background: none;
+  border: none;
+  font-size: 46px;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  transition: color 0.3s, transform 0.3s;
+
+  &:hover {
+    color: #ddd;
+    transform: scale(1.2);
+  }
+}
+
+.dots {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.krugoff {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background 0s ease, transform 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.krugon {
+  background: #fff;
+  transform: scale(1.3);
+}

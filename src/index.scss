@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+
+.container{
+max-width: 1280px;
+width: 100%;
+margin: 0 auto; 
+}
+
+
+:root{
+    --seri-text: #6A6A6A;
+    --white-text: #FFFFFF;
+    --black-text: #000000;
+    --button-burdo: #80233A;
+    --header-burdo: #72408A;
+    --graident1: #EFCFDA;
+    --graident2: #ECB0C5;
+    --background-seri: #FAFAFA;
+    --background-kisaspitak: #F5F5F5;
+    --linktext-roza: rgb(232, 159, 240);
+}
+
+
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,93 @@
+.fullheader{
+
+.reclam{
+    p{ font-size: 12px; font-weight: 400; color: var(--seri-text); text-align: center; background-color: var(--background-seri); padding: 5px;}
+ }
+
+.headerinfo{
+
+display: flex;
+align-items: center;
+ justify-content: space-between;
+.logoheight{
+height: 113px;
+width: 108px;  }
+
+
+.search{
+    position: relative;
+    
+    .inputsearch{
+        padding-bottom: 8px;
+        border: none;
+        width: 235px;
+      padding-left: 5px;
+        font-size: 13px;
+        font-weight: 400;
+        outline: none;
+        padding: 6px;
+        padding-left: 15px;
+        box-shadow: 0px 4px 15px 4px rgb(232, 230, 230);
+        background-color: rgb(245, 243, 243);
+        border-radius: 18px;
+         transition: 0.6s;
+    }
+
+    .inputsearch:focus{
+        width: 350px;
+        padding-top: 10px;
+        transition: 0.6s;
+        
+    }
+
+.searchimg{
+position: absolute;
+right: 0;
+width: 23px;
+height: 24px;
+padding: 6px;
+}
+
+
+ &:focus-within {
+    .searchimg {
+      width: 0;
+      height: 0;
+      padding: 0;
+      opacity: 0;
+    }
+ }
+
+}
+
+.Subscribe{
+.link{
+    font-size: 15px;
+    color: var(--black-text)
+}
+}
+
+.headericons{
+display: flex;
+gap: 40px;
+}
+
+
+}
+
+
+}
+
+.linkdecor{
+    text-decoration: none;
+    color: var(--black-text);
+}
+
+.linkdecor:hover{
+    text-decoration:underline;
+    color: var(--linktext-roza);
+}
+
+.homedecor:hover{
+  opacity: 65%;
+}
